@@ -328,7 +328,8 @@ PRODUCT_PACKAGES += \
     DialerOverlayCOMMON \
     TelephonyOverlayCOMMON \
     ApertureOverlay \
-    ApertureQRScannerOverlay
+    ApertureQRScannerOverlay \
+    ApertureIconOverlay
 
 PRODUCT_PACKAGES += \
     FrameworkOverlayVEUX \
