@@ -16,3 +16,6 @@ persist.log.tag.OpenGLRenderer=S
 
 # Declare use of spatial audio
 ro.audio.spatializer_enabled=true
+
+# eSIM
+masterclear.allow_retain_esim_profiles_after_fdr=true
