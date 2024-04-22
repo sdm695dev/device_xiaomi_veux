@@ -206,7 +206,7 @@ on property:ro.vendor.display.svi=1 && property:sys.boot_completed=1
     start svi_on
 
 on property:sys.boot_completed=1
-    # STOP EATING MY BATTERY AFTER 100H OF UPTIME FUCK YOU
+    # Stop statsd once the boot is completed
     stop statsd
 
     # Enable PowerHAL hint processing
