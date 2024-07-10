@@ -108,6 +108,13 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             grep -q "libcrypto_shim.so" "${2}" || "${PATCHELF}" --add-needed "libcrypto_shim.so" "${2}"
             ;;
+        vendor/etc/libnfc-sn100.conf)
+            sed -i "/DEFAULT_ISODEP_ROUTE/ s/0x01/0xC0/g" "${2}"
+            sed -i "/DEFAULT_SYS_CODE_ROUTE/ s/0x00/0xC0/g" "${2}"
+            sed -i "/DEFAULT_OFFHOST_ROUTE/ s/0x01/0xC0/g" "${2}"
+            sed -i "/OFFHOST_ROUTE_ESE/ s/01/C0/g" "${2}"
+            echo "DEFAULT_NFCF_ROUTE=0xC0" >> "${2}"
+            ;;
         *)
             return 1
             ;;
