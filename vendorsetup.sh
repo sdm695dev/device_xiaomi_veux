@@ -13,3 +13,9 @@ git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi hardwar
 echo "Cloning Kernel"
 # Kernel
 git clone https://github.com/PaimonLab/kernel_xiaomi_veux.git kernel/xiaomi/veux
+
+echo "Cloning BCR..."
+# BCR
+git clone https://github.com/MrTopia/vendor_bcr vendor/bcr
+
+echo "Completed, proceeding to lunch"
