@@ -524,3 +524,6 @@ PRODUCT_PACKAGES += \
 
 # MiuiCamera
 $(call inherit-product, vendor/xiaomi/miuicamera-veux/MiuiCamera-veux.mk)
+
+# AGC CAMERA
+$(call inherit-product, vendor/xiaomi/AGC-camera/config.mk)
