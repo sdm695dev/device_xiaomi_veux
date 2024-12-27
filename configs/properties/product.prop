@@ -19,3 +19,11 @@ ro.audio.spatializer_enabled=true
 
 # eSIM
 masterclear.allow_retain_esim_profiles_after_fdr=true
+
+
+# LMKD
+ro.lmk.kill_heaviest_task=true
+ro.lmk.thrashing_limit=50
+ro.lmk.thrashing_limit_decay=25
+ro.lmk.psi_complete_stall_ms=80
+ro.lmk.psi_partial_stall_ms=50
