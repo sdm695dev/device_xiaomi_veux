@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_veux.mk
+    $(LOCAL_DIR)/infinity_veux.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_veux-user \
-    lineage_veux-userdebug \
-    lineage_veux-eng
+    infinity_veux-user \
+    infinity_veux-userdebug \
+    infinity_veux-eng
