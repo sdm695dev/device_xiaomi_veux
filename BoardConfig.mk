@@ -114,7 +114,7 @@ BOARD_KERNEL_CMDLINE := \
     ip6table_raw.raw_before_defrag=1 \
     firmware_class.path=/vendor/firmware
 
-TARGET_KERNEL_CONFIG := veux_defconfig
+TARGET_KERNEL_CONFIG := vendor/veux-qgki_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/veux
 TARGET_KERNEL_NO_GCC := true
 

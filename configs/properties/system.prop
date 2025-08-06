@@ -1,3 +1,9 @@
+# AboutPhone Info
+ro.infinity.soc=Snapdragon 695
+ro.infinity.battery=5000 mAh
+ro.infinity.display=1080 x 2400, 120 Hz
+ro.infinity.camera=108MP + 8MP + 2MP
+
 # Brightness Curve
 persist.sys.brightness.low.gamma=true
 
@@ -6,6 +12,9 @@ debug.cpurend.vsync=false
 
 # Logs
 persist.log.tag.ACDB-LOADER=S
+
+# Marketname
+ro.product.marketname=Redmi Note 11 Pro Plus 5G / Poco X4 Pro 5G
 
 # Radio VoNR Calling
 persist.radio.is_vonr_enabled_0=true

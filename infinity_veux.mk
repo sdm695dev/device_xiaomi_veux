@@ -11,8 +11,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Infinity-X stuff.
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
+
+# Infinity-X Specific Flags
+WITH_GAPPS := true
+TARGET_SUPPORTS_BLUR := true
+INFINITY_MAINTAINER := SDM695DEV
+INFINITY_BUILD_TYPE := OFFICIAL
+USE_MOTO_CALCULATOR := true
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
@@ -22,7 +29,7 @@ PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := veux
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := 2201116SG
-PRODUCT_NAME := lineage_veux
+PRODUCT_NAME := infinity_veux
 PRODUCT_SYSTEM_NAME := veux_global
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
