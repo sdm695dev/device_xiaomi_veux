@@ -45,4 +45,8 @@
 
     <!-- Whether to show a preference item for regulatory information in About phone -->
     <bool name="config_show_regulatory_info">true</bool>
+
+     <!-- Android version screen, build maintainer -->
+    <string name="build_maintainer_summary" translatable="false">SDM695DEV</string>
+    <string name="build_maintainer_donate_url" translatable="false">https://ko-fi.com/sdm695dev</string>
 </resources>

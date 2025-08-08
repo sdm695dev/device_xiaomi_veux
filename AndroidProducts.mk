@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_veux.mk
+    $(LOCAL_DIR)/lineage_veux.mk

@@ -16,10 +16,4 @@ git clone https://github.com/Chaitanyakm/vendor_bcr vendor/bcr --depth=1
 
 echo "Cloning Sony Dolby"
 git clone https://github.com/userariii/vendor_sony_dolby.git vendor/sony/dolby
-
-echo "Cloning ViPER4AndroidFX"
-git clone https://github.com/TogoFire/packages_apps_ViPER4AndroidFX packages/apps/ViPER4AndroidFX
-
-echo "Cloning Infinity-X Keys"
-git clone https://github.com/ProjectInfinity-X/vendor_infinity-priv_keys vendor/infinity-priv/keys
 echo "Completed, proceeding to lunch"
