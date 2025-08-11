@@ -11,9 +11,6 @@ git clone https://github.com/sdm695dev/kernel_xiaomi_veux.git kernel/xiaomi/veux
 echo "Cloning AGC Camera"
 git clone https://gitlab.com/takixamru/vendor_xiaomi_agc-camera.git vendor/xiaomi/AGC-Camera --depth=1
 
-echo "Cloning MIUI Camera"
-git clone https://github.com/Onelots-Devices-Playground/vendor_xiaomi_miuicamera-veux vendor/xiaomi/miuicamera-veux --depth=1
-
 echo "Cloning BCR"
 git clone https://github.com/sdm695dev/vendor_bcr vendor/bcr --depth=1
 
