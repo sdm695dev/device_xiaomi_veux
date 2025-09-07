@@ -583,3 +583,6 @@ $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
 
 # Dolby
 $(call inherit-product, vendor/sony/dolby/setup.mk)
+
+# Camera
+$(call inherit-product-if-exists, device/xiaomi/camera/miuicamera.mk)
